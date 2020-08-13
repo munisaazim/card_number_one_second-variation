@@ -165,3 +165,32 @@ background-color: #63b7af;
         width: 30%;
     }
 }
+@media(max-width:930px){
+    .column{
+        margin: 15px;
+        width:45%;
+    }
+    ul{
+
+        position: relative;
+        left: 70px;
+    }
+}
+@media(max-width:693px){
+    ul{
+
+        position: relative;
+        left: 40px;
+    }
+}
+@media(max-width:600px){
+    .column{
+        margin: 45px;
+        width:80%;
+    }
+    ul{
+
+        position: relative;
+        left: 40px;
+    }
+}
