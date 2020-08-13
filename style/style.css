@@ -67,21 +67,27 @@ p.jobTitle{
     text-align: center;
     color: black;
 }
-ul{
+hr{
     border-top: 1px solid gray;
-    margin-top: 30px;
+}
+ul{
+   
+   
+    position: relative;
+    left: 40px;
 }
 li{
     list-style: none;
     display: inline-block;
-    margin: 0px 30px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+
 }
 a{
     text-decoration: none;
     text-align: center;
     font-size: 27px;
+    padding: 0 10px;
+
 }
 .fa-instagram{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -96,4 +102,46 @@ a{
 .column{
     width: 22%;
     float: left;
+}
+.contact{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+a.call{
+    background-color: #7f78d2;
+    border-radius: 50px;
+    font-size: medium;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100px;
+    color: white;
+}
+a.call:hover{
+background-color: #f67280;
+}
+/*Responsiveness*/
+a.call{
+    background-color: #7f78d2;
+    border-radius: 50px;
+    font-size: medium;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100px;
+    color: white;
+}
+a.call:hover{
+background-color: #f67280;
+}
+a.callMan{
+    background-color: #7f78d2;
+    border-radius: 50px;
+    font-size: medium;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100px;
+    color: white;
+}
+a.callMan:hover{
+background-color: #63b7af;
 }
