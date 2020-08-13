@@ -3,6 +3,19 @@ body{
     padding: 0px;
     margin: 0px;
     font-family: 'Roboto', sans-serif;   
+    background-color: #faf4ff;
+}
+.headTitle{
+    line-height: 90px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    word-spacing: px;
+   
+}
+.team{
+    border-bottom: 3px solid #2fc4b2;
 }
 .column{
     width: 5%;
@@ -48,11 +61,15 @@ body{
 }
 p{
     text-align: center;
+    color: gray;
+}
+p.jobTitle{
+    text-align: center;
+    color: black;
 }
 ul{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-top: 1px solid gray;
+    margin-top: 30px;
 }
 li{
     list-style: none;
