@@ -120,18 +120,6 @@ a.call{
 a.call:hover{
 background-color: #f67280;
 }
-a.call{
-    background-color: #7f78d2;
-    border-radius: 50px;
-    font-size: medium;
-    text-align: center;
-    padding: 10px 20px;
-    width: 100px;
-    color: white;
-}
-a.call:hover{
-background-color: #f67280;
-}
 a.callMan{
     background-color: #7f78d2;
     border-radius: 50px;
@@ -145,6 +133,56 @@ a.callMan:hover{
 background-color: #63b7af;
 }
 /*Resposiveness*/
+@media(max-width:2535px){
+    ul{
+
+        position: relative;
+        left: 160px;
+    }
+}
+
+@media(max-width:2359px){
+    ul{
+
+        position: relative;
+        left: 120px;
+    }
+}
+@media(max-width:1967px){
+    ul{
+
+        position: relative;
+        left: 100px;
+    }
+}
+@media(max-width:1801px){
+    ul{
+
+        position: relative;
+        left: 80px;
+    }
+}
+@media(max-width:1674px){
+    ul{
+
+        position: relative;
+        left: 70px;
+    }
+}
+@media(max-width:1548px){
+    ul{
+
+        position: relative;
+        left: 50px;
+    }
+}
+@media(max-width:1501px){
+    ul{
+
+        position: relative;
+        left: 40px;
+    }
+}
 @media(max-width:1333px){
 .column{
     margin: 15px;
@@ -186,11 +224,110 @@ background-color: #63b7af;
 @media(max-width:600px){
     .column{
         margin: 45px;
-        width:80%;
+        width:70%;
     }
     ul{
 
         position: relative;
+        left: 100px;
+    }
+}
+@media(max-width:559px){
+    ul{
+
+        position: relative;
+        left: 80px;
+    }
+}
+@media(max-width:511px){
+    ul{
+
+        position: relative;
+        left: 70px;
+    }
+}
+@media(max-width:476px){
+    ul{
+
+        position: relative;
+        left: 60px;
+    }
+}
+@media(max-width:452px){
+    ul{
+
+        position: relative;
+        left: 50px;
+    }
+}
+@media(max-width:421px){
+    ul{
+
+        position: relative;
         left: 40px;
+    }
+}
+@media(max-width:406px){
+    ul{
+
+        position: relative;
+        left: 30px;
+    }
+}
+@media(max-width:377px){
+    ul{
+
+        position: relative;
+        left: 20px;
+    }
+}
+@media(max-width:340px){
+    ul{
+
+        position: relative;
+        left: 10px;
+    }
+}
+@media(max-width:320px){
+    ul{
+
+        position: static;
+    }
+}
+@media(max-width:281px){
+    ul{
+
+        position: static;
+    }
+    a{
+        font-size: 18px;
+    }
+}
+@media(max-width:225px){
+    .profileImage {
+        width: 100px;
+        height: 100px;
+    }
+    ul li {
+        display: block;
+        display: list-item;
+    }
+}
+@media(max-width:160px){
+    .profileImage {
+        width: 50px;
+        height: 50px;
+    }
+    ul li {
+        display: block;
+        display: list-item;
+    }
+    a.call, a.callMan{
+        padding: 5px 10px;
+    }
+}
+@media(max-width:109px){
+    a.call, a.callMan{
+        padding: 5px 5px;
     }
 }
