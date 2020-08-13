@@ -23,6 +23,10 @@ body{
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     margin: 20px;
 }
+.column{
+    width: 22%;
+    float: left;
+}
 .row:after{
     content: "";
     display: table;
@@ -71,8 +75,7 @@ hr{
     border-top: 1px solid gray;
 }
 ul{
-   
-   
+
     position: relative;
     left: 40px;
 }
@@ -99,10 +102,7 @@ a{
 .fa-twitter{
     color: #1DA1F2;
 }
-.column{
-    width: 22%;
-    float: left;
-}
+
 .contact{
     text-align: center;
     margin-top: 40px;
@@ -120,7 +120,6 @@ a.call{
 a.call:hover{
 background-color: #f67280;
 }
-/*Responsiveness*/
 a.call{
     background-color: #7f78d2;
     border-radius: 50px;
@@ -144,4 +143,25 @@ a.callMan{
 }
 a.callMan:hover{
 background-color: #63b7af;
+}
+/*Resposiveness*/
+@media(max-width:1333px){
+.column{
+    margin: 15px;
+}
+}
+@media(max-width:1205px){
+    ul{
+
+        position: relative;
+        left: 20px;
+    }
+}
+@media(max-width:1094px){
+    .column{
+        margin: 15px;
+    }
+    .column{
+        width: 30%;
+    }
 }
